@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/latommyla/My-Portfolio.git"
+  },
+  "author": "Tommy La",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/latommyla/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/latommyla/My-Portfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.7"
+  }
+}
