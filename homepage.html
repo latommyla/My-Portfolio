@@ -18,7 +18,7 @@
     <div x-data="{ open: false }"
       class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
       <div class="p-3 flex flex-row items-center justify-between">
-        <a href="#home" class="text-md font-semibold tracking-widest text-white uppercase rounded-lg"> Tommy La </a>
+        <a href="#home" class="text-md font-semibold tracking-widest text-white uppercase rounded-lg hover:text-amber-400"> Tommy La </a>
         <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
           <svg fill="white" viewBox="0 0 20 20" class="w-6 h-6">
             <path x-show="!open" fill-rule="evenodd"
@@ -256,7 +256,7 @@
         </svg></a>
         </li>
         <li><a href="https://www.youtube.com/channel/UChDFEl8nfsWEXLwiJp7ixqg"><svg xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6 hover:fill-slate-300 duration-300" fill="#fbbf24" viewBox="0 0 24 24">
+          class="h-6 w-6 mb-14 hover:fill-slate-300 duration-300" fill="#fbbf24" viewBox="0 0 24 24">
           <title> YouTube </title>
           <desc> YouTube </desc>
           <path
@@ -270,7 +270,12 @@
 
   <footer class="bg-slate-700 text-slate-300 m-auto flex p-2 font-heebo">
     <div class="m-auto">
-      <div class="flex justify-center p-1 visible sm:invisible md:invisible">
+      <div class="flex justify-center">
+        <a href="#home"><svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 mb-8 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="#fbbf24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 11l7-7 7 7M5 19l7-7 7 7" />
+        </svg></a>
+      </div>
+      <div class="flex justify-center p-1 visible md:invisible">
         <a href="https://github.com/latommyla"><svg class="mr-2 h-7 w-7 hover:fill-slate-300 duration-300"
             viewBox="0 0 128 128" fill="#fbbf24" role="img" aria-label="GitHub Profile">
             <title> GitHub Profile </title>
@@ -308,7 +313,7 @@
           </svg></a>
       </div>
       <div>
-        <p class="font-heebo"> Designed by Tommy La 2021</p>
+        <p class="font-heebo"> Designed by Tommy La </p>
       </div>
     </div>
   </footer>
