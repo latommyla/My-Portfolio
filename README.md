@@ -1,6 +1,6 @@
 # TL Portfolio
 
-My new portfolio for the year 2022. 
+My new portfolio for the year 2022. Newly designed and responsive.
 
 ## Preview
 
