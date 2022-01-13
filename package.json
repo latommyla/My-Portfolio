@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "tailwind": "npx tailwindcss -i ./tailwind/input.css -o ./tailwind/output.css --watch"
+    "tailwind": "npx tailwindcss -i ./docs/tailwind/input.css -o ./docs/tailwind/output.css --watch"
   },
   "repository": {
     "type": "git",

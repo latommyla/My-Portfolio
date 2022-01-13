@@ -9,7 +9,7 @@ My new portfolio for the year 2022. Newly designed and responsive.
 ## Demo & Repository
 
 - [Github Repo](https://github.com/latommyla/My-Portfolio)
-- [GitHub Deployed Live URL]()
+- [GitHub Deployed Live URL](https://latommyla.github.io/TL-Portfolio/)
 
 
 ## Description 
