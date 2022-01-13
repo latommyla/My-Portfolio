@@ -623,8 +623,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.5rem;
 }
 
+.w-4\/5 {
+  width: 80%;
+}
+
 .max-w-screen-xl {
   max-width: 1280px;
+}
+
+.max-w-screen-lg {
+  max-width: 1024px;
+}
+
+.max-w-screen-2xl {
+  max-width: 1536px;
 }
 
 .flex-grow {
@@ -816,6 +828,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .pb-0 {
