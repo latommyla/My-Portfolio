@@ -1081,6 +1081,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   transform: var(--tw-transform);
 }
 
+.hover\:-translate-y-2:hover {
+  --tw-translate-y: -0.5rem;
+  transform: var(--tw-transform);
+}
+
 .hover\:rotate-12:hover {
   --tw-rotate: 12deg;
   transform: var(--tw-transform);
@@ -1353,6 +1358,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:gap-x-1 {
     -moz-column-gap: 0.25rem;
          column-gap: 0.25rem;
+  }
+
+  .md\:gap-x-2 {
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
   }
 
   .md\:p-0 {
