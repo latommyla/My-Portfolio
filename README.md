@@ -4,7 +4,7 @@ My new portfolio for the year 2022. Newly designed and responsive.
 
 ## Preview
 
-<img src="./imgs/demo.png" alt="Preview" title="Preview">
+<img src="./docs/imgs/demo.png" alt="Preview" title="Preview">
 
 ## Demo & Repository
 
