@@ -460,6 +460,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 2rem;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .order-last {
   order: 9999;
 }
@@ -615,6 +619,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.75rem;
 }
 
+.w-4\/5 {
+  width: 80%;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -623,8 +631,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.5rem;
 }
 
-.max-w-screen-xl {
-  max-width: 1280px;
+.max-w-screen-lg {
+  max-width: 1024px;
 }
 
 .flex-grow {
@@ -713,6 +721,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-y-6 {
   row-gap: 1.5rem;
+}
+
+.gap-y-10 {
+  row-gap: 2.5rem;
 }
 
 .scroll-smooth {
@@ -816,10 +828,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.pb-0 {
-  padding-bottom: 0px;
 }
 
 .pt-10 {
@@ -1024,6 +1032,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 640px) {
+  .sm\:fixed {
+    position: fixed;
+  }
+
   .sm\:ml-5 {
     margin-left: 1.25rem;
   }
@@ -1083,6 +1095,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     visibility: hidden;
   }
 
+  .md\:fixed {
+    position: fixed;
+  }
+
   .md\:order-first {
     order: -9999;
   }
@@ -1131,6 +1147,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:h-14 {
     height: 3.5rem;
+  }
+
+  .md\:h-40 {
+    height: 10rem;
+  }
+
+  .md\:h-80 {
+    height: 20rem;
   }
 
   .md\:w-screen {
@@ -1264,6 +1288,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1024px) {
+  .lg\:fixed {
+    position: fixed;
+  }
+
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
