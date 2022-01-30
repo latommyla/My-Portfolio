@@ -19,5 +19,8 @@
   "homepage": "https://github.com/latommyla/My-Portfolio#readme",
   "devDependencies": {
     "tailwindcss": "^3.0.7"
+  },
+  "dependencies": {
+    "lightbox2": "^2.11.3"
   }
 }
